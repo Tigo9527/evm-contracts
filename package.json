@@ -1,0 +1,18 @@
+{
+  "name": "evm-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Tigo9527/evm-contracts.git",
+  "license": "MIT",
+  "scripts": {
+    "accounts": "yarn run hardhat --network eth accounts",
+    "run": "yarn run hardhat --network eth run scripts/sample-script.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.3",
+    "hardhat": "^2.8.3"
+  }
+}
